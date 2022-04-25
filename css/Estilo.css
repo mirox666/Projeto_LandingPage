@@ -1,1 +1,15 @@
-body{background-color: aqua;}
+*{margin: 0;padding: 0;box-sizing: border-box; outline: none;}
+
+.principal{
+    display: grid;
+    grid-template-columns:75% 25%;/*estou informando que quero 2 colunas*/
+    grid-template-areas: 'cabecalho formulario'
+                         'principal formulario'
+                         'rodape formulario';
+    height: 100vh;/* significa viewport heigth*/    
+}
+
+header{background-color: blue; grid-area: cabecalho;}
+main{background-color:red;grid-area: principal;}
+aside{background-color:chartreuse;grid-area: formulario;}
+footer{background-color:yellow;grid-area:rodape ;}
