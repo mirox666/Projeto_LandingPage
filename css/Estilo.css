@@ -6,10 +6,22 @@
     grid-template-areas: 'cabecalho formulario'
                          'principal formulario'
                          'rodape formulario';
-    height: 100vh;/* significa viewport heigth*/    
+    height: 100vh;/* significa viewport heigth*/ 
+    font-family: arial;   
 }
+/*Cabeçalho*/
+header{grid-area: cabecalho;}
+.logo{display: flex;align-items: center;padding: 10px 30px;}
+.logo img{width: 80px;}
 
-header{background-color: blue; grid-area: cabecalho;}
-main{background-color:red;grid-area: principal;}
-aside{background-color:chartreuse;grid-area: formulario;}
-footer{background-color:yellow;grid-area:rodape ;}
+/*Principal*/
+
+main{grid-area: principal;}
+
+/* Formulario*/
+
+aside{chartreuse;grid-area: formulario;}
+
+/*Rodapé*/
+
+footer{grid-area:rodape ;}
