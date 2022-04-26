@@ -7,12 +7,14 @@
                          'principal formulario'
                          'rodape formulario';
     height: 100vh;/* significa viewport heigth*/ 
-    font-family: arial;   
+    font-family: arial;
+    color:#FFF;   
 }
 /*Cabeçalho*/
 header{grid-area: cabecalho;}
 .logo{display: flex;align-items: center;padding: 10px 30px;}
 .logo img{width: 80px;}
+.logo h1{font-family: Verdana; color: #274083;}
 
 /*Principal*/
 
