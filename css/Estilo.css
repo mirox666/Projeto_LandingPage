@@ -26,9 +26,12 @@ main h3{width: 80%;}
 /* Formulario*/
 
 aside{chartreuse;grid-area: formulario;background-color: #274083;padding-top: 30px;text-align: center;}
-aside form{width: 90%; padding-top: 30px;margin: 0 auto; display: flex;flex-direction: column;}
+aside form{width: 90%; padding-top: 30px;margin: 0 auto; display: flex;flex-direction: column;row-gap: 30px;}
 aside input,select{width: 100%;padding: 15px;font-size: 16px;margin-bottom: 10px;border:none;}
-
+aside input[type=submit]{background-color: #11dd2c;font-weight: bold;padding: 20px 0; cursor: pointer; transition:all 0.2s linear;}
+/* Efeitos*/
+form :where(input,select):focus{outline: 3px solid#48a0df;}/*where seletor para agrupar elementos,pseudoclasse */
+form input[type=submit]:hover{box-shadow: 0 0 10px rgb(69, 206, 248); transition:all 0.2s linear;}
 /*Rodapé*/
 
 footer{grid-area:rodape; background-color: #ccc;color:#274083;padding: 30px;display: flex;}
