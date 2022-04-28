@@ -25,7 +25,9 @@ main h1{font-size: 40px; width: 70%;margin-bottom: 30px;line-height: 1.5cm}
 main h3{width: 80%;}
 /* Formulario*/
 
-aside{chartreuse;grid-area: formulario;}
+aside{chartreuse;grid-area: formulario;background-color: #274083;padding-top: 30px;text-align: center;}
+aside form{width: 90%; padding-top: 30px;margin: 0 auto; display: flex;flex-direction: column;}
+aside input,select{width: 100%;padding: 15px;font-size: 16px;margin-bottom: 10px;border:none;}
 
 /*Rodapé*/
 
