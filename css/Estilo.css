@@ -50,4 +50,8 @@ footer .rodape-conteudo{line-height: 0.7cm;}
         'formulario';
 
     }
+    main{height: 50vh;}
+    main h1,main h3{width: 100%;}
+    main figure{margin: 0 5%;}
+    aside input[type=submit]{font-size: 20px;}
  }
